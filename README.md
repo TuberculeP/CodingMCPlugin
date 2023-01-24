@@ -3,7 +3,7 @@
 - Système de Homes sethome, delhome, home (limité à 3 par joueur)
 - HUB Anti-Grief (wip), tp, speed&jump+
 - Random TP Safe tp aléatoire dans un rayon de 10k Blocs (cooldown 5min)
-- Menu GO Raccourci vers le Hub (wip : tp vers les home)
+- Menu GO Raccourci vers le Hub et les Homes, Enderchest
 - EnderChest /ec, accès immédiat à son enderchest personnel
 - JetBank Système monétaire comportant un salaire (cooldown 12h) (wip : boutique de packs)
 - Back tp rapide vers la dernière téléportation connue
