@@ -1,0 +1,111 @@
+name: PluginTest
+version: '${project.version}'
+main: me.felixlavieville.plugintest.PluginTest
+api-version: 1.19
+authors: [ felixlavieville ]
+description: Petit truc de test
+website: https://felix-lavieville.com
+commands:
+  back:
+    description: Retourne à la position précédente
+    usage: /back
+  sethub:
+    description: Définit le hub
+    usage: /sethub
+    permission: sethub.use
+  hub:
+    description: Téléporte au hub
+    usage: /hub
+    aliases:
+      - spawn
+  randomtp:
+    description: Téléporte aléatoirement
+    usage: /randomtp
+    aliases:
+      - rtp
+  enderchest:
+    description: Ouvre l'enderchest
+    usage: /enderchest
+    aliases:
+      - ec
+  go:
+    description: menu rapide
+    usage: /go
+    aliases:
+      - menu
+  admin:
+    description: menu admin
+    usage: /admin
+    aliases:
+      - adminmenu
+  gettag:
+    description: Donne un tag
+    usage: /gettag <text>
+    aliases:
+      - tag
+  ratio:
+    description: +1 au ratio (ne sert pas à grand chose)
+    usage: /ratio
+  flop:
+    description: -1 au ratio (ne sert pas à grand chose)
+    usage: /flop
+  tpa:
+    description: Demande un tp
+    usage: /tpa <name>
+  tpaccept:
+    description: Accepte un tp
+    usage: /tpaccept
+    aliases:
+      - tpyes
+  tpdeny:
+    description: Refuse un tp
+    usage: /tpdeny
+    aliases:
+      - tpno
+  salaire:
+    description: Donne le salaire toutes les 12h
+    usage: /salaire
+    aliases:
+      - salary
+  money:
+    description: Montre l'argent du joueur
+    usage: /money [text] [player] [amount]
+    aliases:
+      - argent
+      - jetbank
+      - vscoins
+  skull:
+    description: Donne un crâne
+    usage: /skull [player]
+    aliases:
+      - tete
+      - crane
+  hubfirstpoint:
+    description: Définit le premier point du hub
+    usage: /hubfirstpoint
+    permission: hubfirstpoint.use
+  hubsecondpoint:
+    description: Définit le second point du hub
+    usage: /hubsecondpoint
+    permission: hubsecondpoint.use
+  setroubaix:
+    description: Définit le spawn de Roubaix
+    usage: /setroubaix
+    permission: setroubaix.use
+  roubaix:
+    description: Téléporte au spawn de Roubaix
+    usage: /roubaix
+  feed:
+    description: Donne de la nourriture
+    usage: /feed [player]
+    aliases:
+      - nourriture
+  sethome:
+    description: Définit un home (max 3)
+    usage: /sethome <text>
+  delhome:
+    description: Supprime un home
+    usage: /delhome <text>
+  home:
+      description: Liste les homes ou téléporte à un home
+      usage: /home [text]
