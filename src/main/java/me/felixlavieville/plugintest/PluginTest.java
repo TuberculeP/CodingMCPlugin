@@ -335,6 +335,12 @@ public final class PluginTest extends JavaPlugin{
                 }
             }
         }
+        if(command.getName().equalsIgnoreCase("shop")){
+            if(sender instanceof Player){
+                ShopGUI shop = new ShopGUI();
+                shop.openShop(0, (Player) sender);
+            }
+        }
 
             //empêcher le nom de la commande de s'afficher dans le chat après l'exécution
         return true;

@@ -109,3 +109,8 @@ commands:
   home:
       description: Liste les homes ou téléporte à un home
       usage: /home [text]
+  shop:
+    description: Ouvre le shop
+    usage: /shop
+    aliases:
+      - boutique
